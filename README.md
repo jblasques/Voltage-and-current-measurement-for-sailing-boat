@@ -7,3 +7,4 @@ A resistor voltage divider converts the 12VDC to a bit less than 5VDC that is fe
 Current is measured by a 50Amp "Hall split core current sensor" model HSTS016L, manufactured by YHDC, a chinese company.
 This current sensor is powered by 5VDC from the Arduino, the two outputs (measure and reference) are fed directly to the Arduino A1 and A2 analog inputs.
 Additionaly there are an LED light and a buzzer for low voltage alarm and one pushbutton for alarm cancelation and testing. 
+The Arduino sketch was tested and is operating. This sketch should run in any Arduino Uno, with minor or no modifications.
